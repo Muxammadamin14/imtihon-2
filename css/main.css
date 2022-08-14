@@ -1,0 +1,44 @@
+.main__info {
+  background: #012F34;
+  display: flex;
+  align-items: center;
+}
+
+.info__li1 {
+  display: flex;
+  margin-left: 100px;
+}
+
+.info__li2 {
+  display: flex;
+  margin-left: 100px;
+}
+
+.info__li3 {
+  display: flex;
+  margin-left: 100px;
+}
+
+.info__h4 {
+  margin-bottom: 20px;
+  color: #F67E7E;
+}
+
+.info__p {
+  color: #ffffff;
+}
+
+.info__text {
+  margin-left: 20px;
+}
+
+.container__info1 {
+  margin-left: 150px;
+  width: 250px;
+  height: 200px;
+  color: #ffffff;
+}
+
+.img__info {
+  margin-left: 849px;
+}/*# sourceMappingURL=main.css.map */

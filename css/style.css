@@ -605,12 +605,12 @@ a {
   }
   .header {
     background: #014E56;
-    width: 992px;
+    width: 768px;
     height: 625px;
     padding-top: 73px;
   }
   .header__ul {
-    display: flex;
+    display: none;
     margin-left: -50px;
   }
   li {
@@ -634,6 +634,7 @@ a {
     border: 1px solid #ffffff;
     align-items: center;
     text-align: center;
+    display: none;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
@@ -668,11 +669,11 @@ a {
     display: none;
   }
   .section__info1 {
-    margin-left: -100px;
+    margin-left: -200px;
     margin-top: -200px;
   }
   .section__p {
-    margin-left: -400px;
+    margin-left: -500px;
     width: 400px;
   }
   .section__h2 {
@@ -683,7 +684,7 @@ a {
     line-height: 70px;
   }
   .logo__img {
-    margin-left: 100px;
+    margin-left: 0;
     margin-top: -40px;
   }
   .logo__img2 {
@@ -694,19 +695,25 @@ a {
   .main__info {
     background: #012F34;
     width: 100%;
+    display: flex;
+  }
+  .info__logo__img {
+    margin-top: -100px;
+    margin-left: 200px;
+    position: absolute;
   }
   .info__li1 {
-    margin-top: 140px;
+    display: flex;
+    text-align: center;
+    align-items: center;
   }
   .info__ul {
     margin-left: -700px;
-    margin-top: 100px;
+    margin-top: 300px;
   }
-  .info__li2 {
-    margin-left: 100px;
-  }
-  .info__li3 {
-    margin-left: 100px;
+  .info__h1 {
+    margin-left: -200px;
+    width: 200px;
   }
   .info__h4 {
     margin-bottom: 20px;
@@ -718,10 +725,10 @@ a {
   .container__info1 {
     margin-left: 400px;
     width: 500px;
-    height: 200px;
+    height: 100px;
     font-family: "Livvic";
     color: #ffffff;
-    margin-top: -60px;
+    margin-top: -300px;
   }
   .info__text {
     margin-left: 20px;
@@ -759,7 +766,7 @@ a {
   .text__h1 {
     width: 800px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: -50px;
   }
   .text__p2 {
     margin-top: 20px;
@@ -785,12 +792,12 @@ a {
   .container__started {
     background: #F67E7E;
     width: 100%;
-    height: 200px;
+    height: 300px;
   }
   .container__started2 {
     padding-top: 80px;
     margin-left: 200px;
-    display: flex;
+    display: block;
   }
   .started__btn {
     background-color: #F67E7E;
@@ -805,7 +812,8 @@ a {
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     -o-border-radius: 24px;
-    margin-left: 260px;
+    margin-left: 100px;
+    margin-top: 50px;
   }
   .started__btn:active {
     background-color: #F67E7E;
@@ -820,10 +828,9 @@ a {
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     -o-border-radius: 24px;
-    margin-left: 260px;
   }
   .text__img {
-    margin-top: -180px;
+    margin-top: -50px;
   }
   .started__btn:hover {
     background-color: #ffffff;
@@ -838,13 +845,14 @@ a {
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     -o-border-radius: 24px;
-    margin-left: 260px;
+    margin-left: 100px;
+    margin-top: 50px;
   }
   .footer {
     padding-top: 50px;
     background: #013036;
     width: 100%;
-    height: 300px;
+    height: 600px;
     display: flex;
     position: -webkit-sticky;
     position: sticky;
@@ -861,12 +869,13 @@ a {
   }
   .container__footer2 {
     width: 300px;
-    margin-left: 200px;
+    margin-left: -250px;
+    margin-top: 200px;
   }
   .footer__ul2 {
     display: flex;
-    margin-top: 200px;
-    margin-left: -700px;
+    margin-top: 350px;
+    margin-left: -200px;
   }
   .footer__p2 {
     width: 400px;
